@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking</title>
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Let's Get Some <span class="text-blue-700"> Mooney!!!!</span>
+      </h1>
+    </header>
+
+    <main>
+      <section>
+<div class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white">
+<div class="bg-blue-400 p-8 rounded mt-4">
+<h3 class="text-3xl">Deposit</h3>
+<h4 class="text-5xl">$ <span id="total-deposit">00</span></h4>
+
+</div>
+<div class="bg-green-400 p-8 rounded mt-4">
+<h3 class="text-3xl">Withdrow</h3>
+<h4 class="text-5xl">$<span id="withdrow-tatal">00</span> </h4>
+
+</div>
+<div class="bg-yellow-400 p-8 rounded mt-4">
+<h3 class="text-3xl">Balance</h3>
+<h4 class="text-5xl">$<span id="balance-total">1240</span> </h4>
+</div> 
+</div>
+      </section>
+<section class="w-3/4 mx-auto mt-8 ">
+<div class="grid grid-cols-2 gap-4 ">
+<div>
+<div class="bg-blue-400 p-8 rounded mt-4">
+<h3 class="text-2xl mb-4">Deposit</h3>
+<input class="border border-gray-400 rounded block w-3/4 mb-4 px-2" type="email" name="" id="deposit-amount" placeholder="$ You want to Deposit">
+<button id="deposit-btn" class="border bg-yellow-400 text-white px-4 rounded py-2 font-medium">Deposit</button>
+</div>
+</div>
+<div class="bg-blue-400 p-8 rounded mt-4">
+<h3 class="text-2xl mb-4">Withdrow</h3>
+<input class="border border-gray-400 rounded block w-3/4 mb-4 px-2" type="email" name="" id="withdrow-input" placeholder="$ You want to Withdrow">
+<button id="withdrow-btn" class="border bg-yellow-400 text-white px-4 rounded py-2 font-medium">withdrow</button>
+</div>
+</div>
+
+
+
+</div>
+<div>
+
+
+</div>
+<div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+    </main>
+
+    <script src="js/banking.js"></script>
+  </body>
+</html>
